@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">HARRY-VM-W10</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5dqTSCIIk0+DhEKxJJg5PwAAAAACAAAAAAAQZgAAAAEAACAAAADVXej45GcTzDQS2cjg8smS1dAHOrfKK7lCT+1DPenvXgAAAAAOgAAAAAIAACAAAAB8f8chlHZ3h8/LEJxQY4IPnzbJjOCCgkWHhyrG2ZDpd5AAAADhG0k/CgNnxJBZeXumM9HUQLRDo0o0aWH+cWCZzGDqzAf0Wac/qN2E769moQartUkQQuX2P0HV+eFhfK12oDYcgJuzVj8x8JAydME26q5T4tnLzxnHZDRm3pFxwbRGsD91N1QZ8AANMP/ajJkjXPXog2bnGd41dFrtKnY7vNWGEbSJ5j7ntSFhceLO93WMTrdAAAAAzR09wTKvhqPmDk9m/shq+ftVUrUyZBhZa0vZiyT1E5sUZAwc3PNNCd3CVmVznVvrv2yJ/z1+tcNb2HJONdgRKQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5dqTSCIIk0+DhEKxJJg5PwAAAAACAAAAAAAQZgAAAAEAACAAAACJKfcsDAR4HBROaky6N3PRYJPh1kcrhEOyFVXedW5P4AAAAAAOgAAAAAIAACAAAAAuoOb8vrFbVjfYzr/oAxFH1SAfKqgFdwPi7/RE/AIEk5AAAAD9seb454L3T8WYgC7nwhq0WpeEPWs+kTpL6PK+XPu4XUJ8+F0oFIBp7QpF+PJjpHAWVhR5/KkCQsxz71BVrQk6XlI5y8ZUtFt7BWT+PUuxCrVuJIewkzK5YsyHXvEzRkU91WRKkbEv6X6TjOOsDunirfWW0iW/j/T0nO3Z0FKV3HCydUdHgXhLyCFFCB3NtvdAAAAACu9OO00l68fzNVPXx/Idk0YcOwErJ3RxD5wwDzgrU2znghjrn8v1YA11JU+nUbciP7q2dFAM+BXhcEx8F1hs+A==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -163,10 +163,10 @@
                 <SSIS:Property SSIS:Name="Name">BusinessRelation</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">17</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{24E9E9CC-9AA7-4B3F-9D63-994F01D42D9F}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{30E4B67A-1570-4F46-93BE-CE45692DBF93}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -214,6 +214,21 @@
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.Excel Connection Manager.ConnectionString">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\SSIS Source\FlatFiles\BusinessRelations.xls;Extended Properties="EXCEL 8.0;HDR=YES";</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="CM.Excel Connection Manager.ExcelFilePath">
